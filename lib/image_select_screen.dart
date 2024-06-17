@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ImageSelectScreen extends StatefulWidget {
   const ImageSelectScreen({super.key});
@@ -10,6 +11,8 @@ class ImageSelectScreen extends StatefulWidget {
 class _ImageSelectScreenState extends State<ImageSelectScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    final l10n = L10n.of(context);
+
+    return Scaffold();
   }
 }

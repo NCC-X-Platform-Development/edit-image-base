@@ -8,6 +8,10 @@ class StartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = L10n.of(context);
 
-    return const Scaffold(body: Center());
+    return const Scaffold(
+      body: Center(
+        child: Text('Start Screen'),
+      ),
+    );
   }
 }
